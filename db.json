@@ -26,7 +26,7 @@
 				"name": "Level A"
 			},
 
-			"jobhistoy": [{
+			"jobhistory": [{
 				"id": 1,
 				"jobId": "1",
 				"actionById": "2",
