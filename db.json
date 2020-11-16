@@ -15,10 +15,14 @@
 		"endTime": "10:00",
 		"duration": "2hr",
 		"gateid": "2",
-		"locationid": "2",	
+		"locationid": "2",
+		"location"
  		"status":"pending",
-		"locationname" : "Building A",
-		"milestonename" : "Level-A",
+		"milestone" : {
+			"id": 1,
+			"name": "Level A",
+		},
+		
 		"jobhistoy":[{
 			"id":1,
 			"jobId":"1",
@@ -58,8 +62,10 @@
 		"gateid": "2",
 		"locationid": "2",
 		"status":"booked",
-		"locationname" : "Building A",
-		"milestonename" : "Level-A",
+		"milestone" : {
+			"id": 2,
+			"name": "Level B",
+		},
 		"jobhistoy":[{
 			"id":1,
 			"jobId":"1",
@@ -99,8 +105,10 @@
 		"gateid": "2",
 		"locationid": "2",
 		"status":"completed",
-		"locationname" : "Building A",
-		"milestonename" : "Level-A",
+		"milestone" : {
+			"id": 1,
+			"name": "Level A",
+		},
 		"jobhistoy":[{
 			"id":1,
 			"jobId":"1",
@@ -170,17 +178,11 @@
 	}],
 	"milestones": [{
 			"id": 1,
-			"name": "building",
-			"projectId": "1",
-			"parentMilestoneId": "",
-			"mileStoneType": ""
+			"name": "Level A",
 		},
 		{
 			"id": "2",
-			"name": "Plaza",
-			"projectId": "1",
-			"parentMilestoneId": "3",
-			"mileStoneType": ""
+			"name": "Level B"
 		}
 	]
 }
