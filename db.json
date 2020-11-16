@@ -18,12 +18,12 @@
 		"locationid": "2",
 		"location" : {
 			"locationid": "1",
-			"locationname": "Building A",
+			"locationname": "Building A"
 		},
  		"status":"pending",
 		"milestone" : {
 			"id": 1,
-			"name": "Level A",
+			"name": "Level A"
 		},
 		
 		"jobhistoy":[{
@@ -67,13 +67,13 @@
 		
 		"location" : {
 			"locationid": "2",
-			"locationname": "Building B",
+			"locationname": "Building B"
 		},
 			
 		"status":"booked",
 		"milestone" : {
 			"id": 2,
-			"name": "Level B",
+			"name": "Level B"
 		},
 		"jobhistoy":[{
 			"id":1,
@@ -96,7 +96,7 @@
 			"assetType":"TC"
 			}]
 		},
-{
+	{
 		"id": 3,
 		"projectid": "1",
 		"requestid": "1",
@@ -116,11 +116,11 @@
 		"status":"completed",
 		"location" : {
 			"locationid": "2",
-			"locationname": "Building B",
+			"locationname": "Building B"
 		},
 		"milestone" : {
 			"id": 1,
-			"name": "Level A",
+			"name": "Level A"
 		},
 		"jobhistoy":[{
 			"id":1,
