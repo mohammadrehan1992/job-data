@@ -1,151 +1,154 @@
 {
 	"jobs": [{
-		"id": 1,
-		"projectid": "1",
-		"requestid": "1",
-		"operatorid": "12",
-		"assetid": "2",
-		"assettype": "TC",
-		"contractorid": "2",
-		"taskid": "2",
-		"milestoneid": "3",
-		"startDate": "2020-11-16",
-		"endDate": "",
-		"startTime": "08:00",
-		"endTime": "10:00",
-		"duration": "2hr",
-		"gateid": "2",
-		"locationid": "2",
-		"location" : {
-			"locationid": "1",
-			"locationname": "Building A"
-		},
- 		"status":"pending",
-		"milestone" : {
 			"id": 1,
-			"name": "Level A"
-		},
-		
-		"jobhistoy":[{
-			"id":1,
-			"jobId":"1",
-			"actionById":"2",
-			"actionByName":"test",
-			"action":"test",
-			"description":""
-		}],
-		"jobtimelog":[{
-			"id":1,
-			"jobId":"1",
-			"userid":"2",
-			"assetType":"TC"
+			"projectid": "1",
+			"requestid": "1",
+			"operatorid": "12",
+			"assetid": "2",
+			"assettype": "TC",
+			"contractorid": "2",
+			"taskid": "2",
+			"milestoneid": "3",
+			"startDate": "2020-11-16",
+			"endDate": "",
+			"startTime": "08:00",
+			"endTime": "10:00",
+			"duration": "2hr",
+			"gateid": "2",
+			"locationid": "2",
+			"location": {
+				"locationid": "1",
+				"locationname": "Building A"
 			},
-			      {
-			"id":1,
-			"jobId":"1",
-			"userid":"2",
-			"assetType":"TC"
-			}]
+			"status": "pending",
+			"milestone": {
+				"id": 1,
+				"name": "Level A"
+			},
+
+			"jobhistoy": [{
+				"id": 1,
+				"jobId": "1",
+				"actionById": "2",
+				"actionByName": "test",
+				"action": "test",
+				"description": ""
+			}],
+			"jobtimelog": [{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				},
+				{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				}
+			]
 		},
 		{
-		"id": 2,
-		"projectid": "1",
-		"requestid": "1",
-		"operatorid": "12",
-		"assetid": "2",
-		"assettype": "TC",
-		"contractorid": "2",
-		"taskid": "2",
-		"milestoneid": "3",
-		"startDate": "2020-11-16",
-		"endDate": "",
-		"startTime": "08:00",
-		"endTime": "10:00",
-		"duration": "2hr",
-		"gateid": "2",
-		"locationid": "2",
-		
-		"location" : {
-			"locationid": "2",
-			"locationname": "Building B"
-		},
-			
-		"status":"booked",
-		"milestone" : {
 			"id": 2,
-			"name": "Level B"
-		},
-		"jobhistoy":[{
-			"id":1,
-			"jobId":"1",
-			"actionById":"2",
-			"actionByName":"test",
-			"action":"test",
-			"description":""
-		}],
-		"jobtimelog":[{
-			"id":1,
-			"jobId":"1",
-			"userid":"2",
-			"assetType":"TC"
-			},
-			      {
-			"id":1,
-			"jobId":"1",
-			"userid":"2",
-			"assetType":"TC"
-			}]
-		},
-	{
-		"id": 3,
-		"projectid": "1",
-		"requestid": "1",
-		"operatorid": "12",
-		"assetid": "2",
-		"assettype": "TC",
-		"contractorid": "2",
-		"taskid": "2",
-		"milestoneid": "3",
-		"startDate": "2020-11-16",
-		"endDate": "",
-		"startTime": "08:00",
-		"endTime": "10:00",
-		"duration": "2hr",
-		"gateid": "2",
-		"locationid": "2",
-		"status":"completed",
-		"location" : {
+			"projectid": "1",
+			"requestid": "1",
+			"operatorid": "12",
+			"assetid": "2",
+			"assettype": "TC",
+			"contractorid": "2",
+			"taskid": "2",
+			"milestoneid": "3",
+			"startDate": "2020-11-16",
+			"endDate": "",
+			"startTime": "08:00",
+			"endTime": "10:00",
+			"duration": "2hr",
+			"gateid": "2",
 			"locationid": "2",
-			"locationname": "Building B"
-		},
-		"milestone" : {
-			"id": 1,
-			"name": "Level A"
-		},
-		"jobhistoy":[{
-			"id":1,
-			"jobId":"1",
-			"actionById":"2",
-			"actionByName":"test",
-			"action":"test",
-			"description":""
-		}],
-		"jobtimelog":[{
-			"id":1,
-			"jobId":"1",
-			"userid":"2",
-			"assetType":"TC"
+
+			"location": {
+				"locationid": "2",
+				"locationname": "Building B"
 			},
-			      {
-			"id":1,
-			"jobId":"1",
-			"userid":"2",
-			"assetType":"TC"
-			}]
+
+			"status": "booked",
+			"milestone": {
+				"id": 2,
+				"name": "Level B"
+			},
+			"jobhistoy": [{
+				"id": 1,
+				"jobId": "1",
+				"actionById": "2",
+				"actionByName": "test",
+				"action": "test",
+				"description": ""
+			}],
+			"jobtimelog": [{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				},
+				{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"projectid": "1",
+			"requestid": "1",
+			"operatorid": "12",
+			"assetid": "2",
+			"assettype": "TC",
+			"contractorid": "2",
+			"taskid": "2",
+			"milestoneid": "3",
+			"startDate": "2020-11-16",
+			"endDate": "",
+			"startTime": "08:00",
+			"endTime": "10:00",
+			"duration": "2hr",
+			"gateid": "2",
+			"locationid": "2",
+			"status": "completed",
+			"location": {
+				"locationid": "2",
+				"locationname": "Building B"
+			},
+			"milestone": {
+				"id": 1,
+				"name": "Level A"
+			},
+			"jobhistoy": [{
+				"id": 1,
+				"jobId": "1",
+				"actionById": "2",
+				"actionByName": "test",
+				"action": "test",
+				"description": ""
+			}],
+			"jobtimelog": [{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				},
+				{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				}
+			]
 		}
-		
-		],
-	
+
+	],
+
 	"contractors": [{
 			"id": 1,
 			"name": "Alec",
@@ -158,40 +161,42 @@
 		}
 	],
 	"assets": [{
-		"id": "1",
-		"name": "TC",
-		"projectId": "1",
-		"type": "TowerCranes"
-	},
-		 {
-		"id": "1",
-		"name": "MC-1",
-		"projectId": "1",
-		"type": "MobileCranes"
-	},
-		 {
-		"id": "1",
-		"name": "Bays-01",
-		"projectId": "1",
-		"type": "Bays"
-	}],
-	"tasks": [{
-		"id": 1,
-		"name": "Task 1",
-		"parentTaskId": "3",
-		"projectId": "1",
-		"taskType": "lifting"
-	},
+			"id": "1",
+			"name": "TC",
+			"projectId": "1",
+			"type": "TowerCranes"
+		},
 		{
-		"id": 1,
-		"name": "Task 2",
-		"parentTaskId": "2",
-		"projectId": "1",
-		"taskType": "loading"
-	}],
+			"id": "1",
+			"name": "MC-1",
+			"projectId": "1",
+			"type": "MobileCranes"
+		},
+		{
+			"id": "1",
+			"name": "Bays-01",
+			"projectId": "1",
+			"type": "Bays"
+		}
+	],
+	"tasks": [{
+			"id": 1,
+			"name": "Task 1",
+			"parentTaskId": "3",
+			"projectId": "1",
+			"taskType": "lifting"
+		},
+		{
+			"id": 1,
+			"name": "Task 2",
+			"parentTaskId": "2",
+			"projectId": "1",
+			"taskType": "loading"
+		}
+	],
 	"milestones": [{
 			"id": 1,
-			"name": "Level A",
+			"name": "Level A"
 		},
 		{
 			"id": "2",
