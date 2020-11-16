@@ -16,7 +16,10 @@
 		"duration": "2hr",
 		"gateid": "2",
 		"locationid": "2",
-		"location"
+		"location" : {
+			"locationid": "1",
+			"locationname": "Building A",
+		},
  		"status":"pending",
 		"milestone" : {
 			"id": 1,
@@ -61,6 +64,12 @@
 		"duration": "2hr",
 		"gateid": "2",
 		"locationid": "2",
+		
+		"location" : {
+			"locationid": "2",
+			"locationname": "Building B",
+		},
+			
 		"status":"booked",
 		"milestone" : {
 			"id": 2,
@@ -105,6 +114,10 @@
 		"gateid": "2",
 		"locationid": "2",
 		"status":"completed",
+		"location" : {
+			"locationid": "2",
+			"locationname": "Building B",
+		},
 		"milestone" : {
 			"id": 1,
 			"name": "Level A",
