@@ -1,7 +1,7 @@
 {
 	"jobs": [{
 			"id": 1,
-			"userId" : "1",
+			"userid" : "1",
 			"projectid": "1",
 			"requestid": "1",
 			"operatorid": "12",
@@ -56,7 +56,7 @@
 		},
 		{
 			"id": 2,
-			"userId" : "2",
+			"userid" : "2",
 			"projectid": "1",
 			"requestid": "1",
 			"operatorid": "12",
@@ -111,7 +111,7 @@
 		},
 		{
 			"id": 3,
-			"userId" : "1",
+			"userid" : "1",
 			"projectid": "1",
 			"requestid": "1",
 			"operatorid": "12",
